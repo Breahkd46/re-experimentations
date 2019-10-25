@@ -38,9 +38,9 @@ L’idée est de créer un système qui viendra rendre les services suivants :
 
 # Exigences du cahier des charges
 
-Voici un accès au [tableur Google Sheets](https://bit.ly/2NaqEEY) dans lequel les exigences sont mises en valeur. 
+Voici un **accès** au [tableur Google Sheets](https://bit.ly/2NaqEEY) dans lequel **les** **exigences** sont mises en valeur. 
 
-Liste des exigences : 
+**Liste des exigences :** 
 1. [Afficher un indicateur](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A2)
 2. [Combiner des informations](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A3)
 3. [Afficher des graphiques](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A4)
