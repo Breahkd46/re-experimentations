@@ -2,7 +2,7 @@
 
 L’idée est de créer un système qui viendra rendre les services suivants :
 
-- Affichage d’un indicateur de santé de la maison. Cet indicateur doit être capable de combiner les informations provenant de la mesure de plusieurs grandeurs physiques:
+[- Affichage d’un indicateur de santé de la maison. Cet indicateur doit être capable de combiner les informations provenant de la mesure de plusieurs grandeurs physiques:](L5)
   - Température
   - Humidité
   - CO2
@@ -36,20 +36,9 @@ L’idée est de créer un système qui viendra rendre les services suivants :
   - Faire des signaux sonores (~ alarme environnementale)
   - ….
 
-Pour réaliser ce système vous devrez:
-- éliciter les exigences (P1)
-- Bien identifier le système et ses acteurs (P2)
-- Définir les principales missions et scénarios d’utilisation du système (P2)
-- Définir les principales fonctions du système, les intéractions et les échanges de flux entre elles (P2)
-- Définir les principaux mode de fonctionnement du système (P2)
+# Exigences du cahier des charges
 
-Organisation du travail : 
-Le projet se déroulera en groupe de 2 étudiants
-
-Livrables : 
-- Une présentation de votre modèle sur la dernière heure, en expliquant chacun d’entre eux et les choix de conception que vous avez fait. 
-- Le modèle (i.e., votre projet Eclipse) qui devra être envoyé par email avant le vendredi 8 décembre à minuit: benoit.combemale@irit.fr et jean-michel.bruel@irit.fr
+Voici un accès au [tableur Google Sheets](https://bit.ly/2NaqEEY) dans lequel les exigences sont mises en valeur. 
 
 
-Bon courage :)
-Benoit and Jean-Michel
+
