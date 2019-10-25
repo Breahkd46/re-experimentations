@@ -2,7 +2,7 @@
 
 L’idée est de créer un système qui viendra rendre les services suivants :
 
-[- Affichage d’un indicateur de santé de la maison. Cet indicateur doit être capable de combiner les informations provenant de la mesure de plusieurs grandeurs physiques:](L5)
+- Affichage d’un indicateur de santé de la maison. Cet indicateur doit être capable de combiner les informations provenant de la mesure de plusieurs grandeurs physiques:
   - Température
   - Humidité
   - CO2
@@ -40,5 +40,29 @@ L’idée est de créer un système qui viendra rendre les services suivants :
 
 Voici un accès au [tableur Google Sheets](https://bit.ly/2NaqEEY) dans lequel les exigences sont mises en valeur. 
 
-
-
+Liste des exigences : 
+1. [Afficher un indicateur](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A2)
+2. [Combiner des informations](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A3)
+3. [Afficher des graphiques](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A4)
+4. [Faire des ratios](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A5)
+5. [Comparer des données](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A6)
+6. [Insérer des données types](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A7)
+7. [Mesure](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A8)
+8. [Mesurer la température](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A9)
+9.  [Mesurer le taux d'humidité](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A10)
+10. [Mesurer le taux de CO2](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A11)
+11. [Mesurer le taux de COV](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A12)
+12. [Détecter un courant d'air](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A13)
+13. [Mesurer la consommation électrique de la maison](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A14)
+14. [Mesurer la production électrique](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A15)
+15. [Mesurer la quantité d'eau chaude restante](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A16)
+16. [Mesurer la charge de la voiture électrique](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A17)
+17. [Créer des prévisions](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A18)
+18. [Créer des prévisions journalières](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A19)
+19. [Créer des prévisions hebdomadaires](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A20)
+20. [Alertes](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A21)
+21. [Alertes vocales](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A22)
+22. [Alertes visuelles](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A23)
+23. [Système de verrouillage automatique](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A24)
+24. [Verrouillage en fonction de l'environnement](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A25)
+25. [Verrouillage par configuration manuelle](https://docs.google.com/spreadsheets/d/1QO8YWqOLj1kR1SySYSeu70GplX7kD6NAzeptP_iFG5k/edit#gid=0&range=A26)
