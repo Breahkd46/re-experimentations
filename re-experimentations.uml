@@ -16,13 +16,22 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_N9HggBpiEeqrn5JwkVBLmg" name="afficher un indicateur" type="_bbjRABphEeqrn5JwkVBLmg" association="_N9ALwBpiEeqrn5JwkVBLmg"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_N9IuoBpiEeqrn5JwkVBLmg" name="alfred" type="_QlrToBphEeqrn5JwkVBLmg" association="_N9ALwBpiEeqrn5JwkVBLmg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_jb4IIBpiEeqrn5JwkVBLmg" name="Ecran">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_e0kwYBpjEeqrn5JwkVBLmg">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jb4IIBpiEeqrn5JwkVBLmg" name="Ecran"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0YE_ABpsEeqrn5JwkVBLmg" name="Afficheur">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_AFKRMBptEeqrn5JwkVBLmg" name="Block17"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_A9fAUBptEeqrn5JwkVBLmg" name="CopyOf_Block17_1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_JHQ1wBprEeqrn5JwkVBLmg" name="Prise electrique externe">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_ep8eoBpsEeqrn5JwkVBLmg" name="Prise electrique externe"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8dIakBpsEeqrn5JwkVBLmg" name=""/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Z-9rUBpuEeqrn5JwkVBLmg" name="Message"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MOMNoBpvEeqrn5JwkVBLmg" name="Maison connecté"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gfSvUBpvEeqrn5JwkVBLmg" memberEnd="_gfVLkBpvEeqrn5JwkVBLmg _gfXAwBpvEeqrn5JwkVBLmg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gfT9cBpvEeqrn5JwkVBLmg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gfUkgBpvEeqrn5JwkVBLmg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gfVLkBpvEeqrn5JwkVBLmg" name="ecran" type="_jb4IIBpiEeqrn5JwkVBLmg" aggregation="composite" association="_gfSvUBpvEeqrn5JwkVBLmg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nhuQQBpvEeqrn5JwkVBLmg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gfXAwBpvEeqrn5JwkVBLmg" name="maison connecté" type="_MOMNoBpvEeqrn5JwkVBLmg" association="_gfSvUBpvEeqrn5JwkVBLmg"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1l8osBpeEeqlJv6l5GClOQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1mATEBpeEeqlJv6l5GClOQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -84,8 +93,18 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_K26uIBpuEeqrn5JwkVBLmg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K2-_kBpuEeqrn5JwkVBLmg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_jcDHQBpiEeqrn5JwkVBLmg" base_Class="_jb4IIBpiEeqrn5JwkVBLmg"/>
-  <Blocks:Block xmi:id="_JHe4MBprEeqrn5JwkVBLmg" base_Class="_JHQ1wBprEeqrn5JwkVBLmg"/>
-  <Blocks:Block xmi:id="_e_TDkBpsEeqrn5JwkVBLmg" base_Class="_ep8eoBpsEeqrn5JwkVBLmg"/>
+  <Blocks:Block xmi:id="_0YM60BpsEeqrn5JwkVBLmg" base_Class="_0YE_ABpsEeqrn5JwkVBLmg"/>
+  <Blocks:Block xmi:id="_8dME8BpsEeqrn5JwkVBLmg" base_Class="_8dIakBpsEeqrn5JwkVBLmg"/>
+  <Blocks:Block xmi:id="_AVfzQBptEeqrn5JwkVBLmg" base_Class="_AFKRMBptEeqrn5JwkVBLmg"/>
+  <Blocks:Block xmi:id="_BMeekBptEeqrn5JwkVBLmg" base_Class="_A9fAUBptEeqrn5JwkVBLmg"/>
+  <Blocks:Block xmi:id="_Z_LGsBpuEeqrn5JwkVBLmg" base_Class="_Z-9rUBpuEeqrn5JwkVBLmg"/>
+  <Blocks:Block xmi:id="_MOOC0BpvEeqrn5JwkVBLmg" base_Class="_MOMNoBpvEeqrn5JwkVBLmg"/>
 </xmi:XMI>
