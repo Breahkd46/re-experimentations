@@ -6,6 +6,15 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_1pBx4BpeEeqlJv6l5GClOQ">
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QlrToBphEeqrn5JwkVBLmg" name="ALFRED"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bbjRABphEeqrn5JwkVBLmg" name="Afficher un indicateur"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N9ALwBpiEeqrn5JwkVBLmg" memberEnd="_N9HggBpiEeqrn5JwkVBLmg _N9IuoBpiEeqrn5JwkVBLmg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N9EdMBpiEeqrn5JwkVBLmg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9FEQBpiEeqrn5JwkVBLmg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N9HggBpiEeqrn5JwkVBLmg" name="afficher un indicateur" type="_bbjRABphEeqrn5JwkVBLmg" association="_N9ALwBpiEeqrn5JwkVBLmg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N9IuoBpiEeqrn5JwkVBLmg" name="alfred" type="_QlrToBphEeqrn5JwkVBLmg" association="_N9ALwBpiEeqrn5JwkVBLmg"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1l8osBpeEeqlJv6l5GClOQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1mATEBpeEeqlJv6l5GClOQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
