@@ -19,6 +19,18 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_jb4IIBpiEeqrn5JwkVBLmg" name="Ecran" visibility="protected">
       <ownedAttribute xmi:type="uml:Port" xmi:id="_JIX2wBpwEeqlJv6l5GClOQ" name="alimentation" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_rg_FsBpwEeqlJv6l5GClOQ" name="message" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2zAmABqQEeqgCMM0hmdoFQ" name="bouton Power" type="_nrGj0BpxEeqlJv6l5GClOQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4rTkYBqQEeqgCMM0hmdoFQ" name="clavier" type="_LGyZUBpyEeqlJv6l5GClOQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UqAD4BqREeqgCMM0hmdoFQ" name="Alimentation" type="_WDsasBqREeqgCMM0hmdoFQ" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lP0moBqREeqgCMM0hmdoFQ" name="Message" type="_l6U8MBqREeqgCMM0hmdoFQ" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ZzVVMBqREeqgCMM0hmdoFQ" name="Connector6">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ZzXKYBqREeqgCMM0hmdoFQ" role="_UqAD4BqREeqgCMM0hmdoFQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ZzXxcBqREeqgCMM0hmdoFQ" role="_2zAmABqQEeqgCMM0hmdoFQ"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_q5pV4BqREeqgCMM0hmdoFQ" name="BindingConnector8">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_q5wqoBqREeqgCMM0hmdoFQ" role="_lP0moBqREeqgCMM0hmdoFQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_q5xRsBqREeqgCMM0hmdoFQ"/>
+      </ownedConnector>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_0YE_ABpsEeqrn5JwkVBLmg" name="Afficheur">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_AFKRMBptEeqrn5JwkVBLmg" name="Block17"/>
@@ -67,6 +79,15 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_8s7jkBqMEeqgCMM0hmdoFQ" name="Calculer le niveau de CO2"/>
         </nestedClassifier>
       </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WDsasBqREeqgCMM0hmdoFQ" name="Alimentation"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_fCBnoBqREeqgCMM0hmdoFQ" client="_4rTkYBqQEeqgCMM0hmdoFQ" supplier="_2zAmABqQEeqgCMM0hmdoFQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l6U8MBqREeqgCMM0hmdoFQ" name="Message"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_43SVcBqREeqgCMM0hmdoFQ" name="Ecran sequence">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_BLXEcBqSEeqgCMM0hmdoFQ" name="Ecran"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_EiFvsBqSEeqgCMM0hmdoFQ" name="Alimentation electrique"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_LD0-YBqSEeqgCMM0hmdoFQ" name="Bouton power"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_OBKSMBqSEeqgCMM0hmdoFQ" name="Message"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1l8osBpeEeqlJv6l5GClOQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1mATEBpeEeqlJv6l5GClOQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -149,4 +170,7 @@
   <Requirements:Requirement xmi:id="_z-sBEBqMEeqgCMM0hmdoFQ" base_NamedElement="_z-dXkBqMEeqgCMM0hmdoFQ" id="2" text="Doit retourner la valeur de CO2&#xD;&#xA;" base_Class="_z-dXkBqMEeqgCMM0hmdoFQ"/>
   <Requirements:Requirement xmi:id="_8tBqMBqMEeqgCMM0hmdoFQ" base_NamedElement="_8s7jkBqMEeqgCMM0hmdoFQ" id="3" text="Calcule le niveau de CO2 et indique si la valeur est bonne ou non pour l'utilisateur&#xD;&#xA;" base_Class="_8s7jkBqMEeqgCMM0hmdoFQ"/>
   <Requirements:Requirement xmi:id="_dDfbMBqNEeqgCMM0hmdoFQ" base_NamedElement="_dDWRQBqNEeqgCMM0hmdoFQ" id="1" text="Doit allumer l 'ecran d affichage de CO2&#xD;&#xA;" base_Class="_dDWRQBqNEeqgCMM0hmdoFQ"/>
+  <Blocks:Block xmi:id="_WDwFEBqREeqgCMM0hmdoFQ" base_Class="_WDsasBqREeqgCMM0hmdoFQ"/>
+  <Blocks:Block xmi:id="_l6bp4BqREeqgCMM0hmdoFQ" base_Class="_l6U8MBqREeqgCMM0hmdoFQ"/>
+  <Blocks:BindingConnector xmi:id="_q5zG4BqREeqgCMM0hmdoFQ" base_Connector="_q5pV4BqREeqgCMM0hmdoFQ"/>
 </xmi:XMI>
