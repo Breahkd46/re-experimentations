@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_1i3fgBpeEeqlJv6l5GClOQ" name="re-experimentations">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_1otBwBpeEeqlJv6l5GClOQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -60,6 +60,13 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_OYCusRpyEeqlJv6l5GClOQ" name="clavier" type="_LGyZUBpyEeqlJv6l5GClOQ" aggregation="composite" association="_OYA5gBpyEeqlJv6l5GClOQ"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_OYEj4BpyEeqlJv6l5GClOQ" name="ecran" type="_jb4IIBpiEeqrn5JwkVBLmg" association="_OYA5gBpyEeqlJv6l5GClOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dDWRQBqNEeqgCMM0hmdoFQ" name="Bouton allumage Ecran">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_rdyXABqMEeqgCMM0hmdoFQ" name="Ecran affichage CO2">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_z-dXkBqMEeqgCMM0hmdoFQ" name="Capteur CO2">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_8s7jkBqMEeqgCMM0hmdoFQ" name="Calculer le niveau de CO2"/>
+        </nestedClassifier>
+      </nestedClassifier>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1l8osBpeEeqlJv6l5GClOQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1mATEBpeEeqlJv6l5GClOQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -138,4 +145,8 @@
   <PortsAndFlows:FullPort xmi:id="_rhCwEBpwEeqlJv6l5GClOQ" base_Port="_rg_FsBpwEeqlJv6l5GClOQ"/>
   <Blocks:Block xmi:id="_nrPGsBpxEeqlJv6l5GClOQ" base_Class="_nrGj0BpxEeqlJv6l5GClOQ"/>
   <Blocks:Block xmi:id="_LG2qwBpyEeqlJv6l5GClOQ" base_Class="_LGyZUBpyEeqlJv6l5GClOQ"/>
+  <Requirements:Requirement xmi:id="_redFYBqMEeqgCMM0hmdoFQ" base_NamedElement="_rdyXABqMEeqgCMM0hmdoFQ" id="1" text="Permet d'afficher la valeur du CO2" base_Class="_rdyXABqMEeqgCMM0hmdoFQ"/>
+  <Requirements:Requirement xmi:id="_z-sBEBqMEeqgCMM0hmdoFQ" base_NamedElement="_z-dXkBqMEeqgCMM0hmdoFQ" id="2" text="Doit retourner la valeur de CO2&#xD;&#xA;" base_Class="_z-dXkBqMEeqgCMM0hmdoFQ"/>
+  <Requirements:Requirement xmi:id="_8tBqMBqMEeqgCMM0hmdoFQ" base_NamedElement="_8s7jkBqMEeqgCMM0hmdoFQ" id="3" text="Calcule le niveau de CO2 et indique si la valeur est bonne ou non pour l'utilisateur&#xD;&#xA;" base_Class="_8s7jkBqMEeqgCMM0hmdoFQ"/>
+  <Requirements:Requirement xmi:id="_dDfbMBqNEeqgCMM0hmdoFQ" base_NamedElement="_dDWRQBqNEeqgCMM0hmdoFQ" id="1" text="Doit allumer l 'ecran d affichage de CO2&#xD;&#xA;" base_Class="_dDWRQBqNEeqgCMM0hmdoFQ"/>
 </xmi:XMI>
