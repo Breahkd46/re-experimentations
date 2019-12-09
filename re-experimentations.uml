@@ -45,6 +45,22 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="__cSzABpvEeqlJv6l5GClOQ" name="maison connecté" type="_MOMNoBpvEeqrn5JwkVBLmg" association="__cQ90BpvEeqlJv6l5GClOQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nrGj0BpxEeqlJv6l5GClOQ" name="Bouton Power"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6RwV4BpxEeqlJv6l5GClOQ" memberEnd="_6RwV4xpxEeqlJv6l5GClOQ _6Rw88BpxEeqlJv6l5GClOQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6RwV4RpxEeqlJv6l5GClOQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6RwV4hpxEeqlJv6l5GClOQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6RwV4xpxEeqlJv6l5GClOQ" name="bouton power" type="_nrGj0BpxEeqlJv6l5GClOQ" aggregation="composite" association="_6RwV4BpxEeqlJv6l5GClOQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6Rw88BpxEeqlJv6l5GClOQ" name="ecran" type="_jb4IIBpiEeqrn5JwkVBLmg" association="_6RwV4BpxEeqlJv6l5GClOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LGyZUBpyEeqlJv6l5GClOQ" name="Clavier"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OYA5gBpyEeqlJv6l5GClOQ" memberEnd="_OYCusRpyEeqlJv6l5GClOQ _OYEj4BpyEeqlJv6l5GClOQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OYCHoBpyEeqlJv6l5GClOQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OYCusBpyEeqlJv6l5GClOQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OYCusRpyEeqlJv6l5GClOQ" name="clavier" type="_LGyZUBpyEeqlJv6l5GClOQ" aggregation="composite" association="_OYA5gBpyEeqlJv6l5GClOQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OYEj4BpyEeqlJv6l5GClOQ" name="ecran" type="_jb4IIBpiEeqrn5JwkVBLmg" association="_OYA5gBpyEeqlJv6l5GClOQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1l8osBpeEeqlJv6l5GClOQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1mATEBpeEeqlJv6l5GClOQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -120,4 +136,6 @@
   <Blocks:Block xmi:id="_MOOC0BpvEeqrn5JwkVBLmg" base_Class="_MOMNoBpvEeqrn5JwkVBLmg"/>
   <PortsAndFlows:FullPort xmi:id="_JIgZoBpwEeqlJv6l5GClOQ" base_Port="_JIX2wBpwEeqlJv6l5GClOQ"/>
   <PortsAndFlows:FullPort xmi:id="_rhCwEBpwEeqlJv6l5GClOQ" base_Port="_rg_FsBpwEeqlJv6l5GClOQ"/>
+  <Blocks:Block xmi:id="_nrPGsBpxEeqlJv6l5GClOQ" base_Class="_nrGj0BpxEeqlJv6l5GClOQ"/>
+  <Blocks:Block xmi:id="_LG2qwBpyEeqlJv6l5GClOQ" base_Class="_LGyZUBpyEeqlJv6l5GClOQ"/>
 </xmi:XMI>
