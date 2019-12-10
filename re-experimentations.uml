@@ -81,10 +81,29 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_WDsasBqREeqgCMM0hmdoFQ" name="Alimentation"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_l6U8MBqREeqgCMM0hmdoFQ" name="Message"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_43SVcBqREeqgCMM0hmdoFQ" name="Ecran sequence">
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_BLXEcBqSEeqgCMM0hmdoFQ" name="Ecran"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_EiFvsBqSEeqgCMM0hmdoFQ" name="Alimentation electrique"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_LD0-YBqSEeqgCMM0hmdoFQ" name="Bouton power"/>
-      <lifeline xmi:type="uml:Lifeline" xmi:id="_OBKSMBqSEeqgCMM0hmdoFQ" name="Message"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_BLXEcBqSEeqgCMM0hmdoFQ" name="Ecran" coveredBy="_oXJDMBtdEeqbJ8Ny2rixfQ _lgr-ABteEeqbJ8Ny2rixfQ _oYZncBtdEeqbJ8Ny2rixfQ _lh--gBteEeqbJ8Ny2rixfQ _oYCbEBtdEeqbJ8Ny2rixfQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_JP7lgBtbEeqbJ8Ny2rixfQ" name="Capteur CO2" coveredBy="_lvsf0BtdEeqbJ8Ny2rixfQ _lvrRsBtdEeqbJ8Ny2rixfQ _oXIcIBtdEeqbJ8Ny2rixfQ _oYaOgBtdEeqbJ8Ny2rixfQ _lvtG4BtdEeqbJ8Ny2rixfQ _x_9NABtcEeqbJ8Ny2rixfQ _x_6wwBtcEeqbJ8Ny2rixfQ"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_f5HRgBteEeqbJ8Ny2rixfQ" name="Zone d'affichage du CO2" coveredBy="_lgslEBteEeqbJ8Ny2rixfQ _lh-XcBteEeqbJ8Ny2rixfQ _lh1NgBteEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_lvsf0BtdEeqbJ8Ny2rixfQ" name="ActionExecutionSpecification6Start" covered="_JP7lgBtbEeqbJ8Ny2rixfQ" execution="_lvrRsBtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_lvrRsBtdEeqbJ8Ny2rixfQ" name="ActionExecutionSpecification6" covered="_JP7lgBtbEeqbJ8Ny2rixfQ" finish="_lvtG4BtdEeqbJ8Ny2rixfQ" start="_lvsf0BtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oXIcIBtdEeqbJ8Ny2rixfQ" name="Message9SendEvent" covered="_JP7lgBtbEeqbJ8Ny2rixfQ" message="_oXHOABtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oXJDMBtdEeqbJ8Ny2rixfQ" name="Message9ReceiveEvent" covered="_BLXEcBqSEeqgCMM0hmdoFQ" message="_oXHOABtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_oYCbEBtdEeqbJ8Ny2rixfQ" name="BehaviorExecutionSpecification12" covered="_BLXEcBqSEeqgCMM0hmdoFQ" finish="_oYZncBtdEeqbJ8Ny2rixfQ" start="_oXJDMBtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lgr-ABteEeqbJ8Ny2rixfQ" name="Message17SendEvent" covered="_BLXEcBqSEeqgCMM0hmdoFQ" message="_lgqv4BteEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lgslEBteEeqbJ8Ny2rixfQ" name="Message17ReceiveEvent" covered="_f5HRgBteEeqbJ8Ny2rixfQ" message="_lgqv4BteEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_lh1NgBteEeqbJ8Ny2rixfQ" name="BehaviorExecutionSpecification20" covered="_f5HRgBteEeqbJ8Ny2rixfQ" finish="_lh-XcBteEeqbJ8Ny2rixfQ" start="_lgslEBteEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lh-XcBteEeqbJ8Ny2rixfQ" name="Message22SendEvent" covered="_f5HRgBteEeqbJ8Ny2rixfQ" message="_lh9JUBteEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oYZncBtdEeqbJ8Ny2rixfQ" name="Message14SendEvent" covered="_BLXEcBqSEeqgCMM0hmdoFQ" message="_oYYZUBtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_oYaOgBtdEeqbJ8Ny2rixfQ" name="Message14ReceiveEvent" covered="_JP7lgBtbEeqbJ8Ny2rixfQ" message="_oYYZUBtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lh--gBteEeqbJ8Ny2rixfQ" name="Message22ReceiveEvent" covered="_BLXEcBqSEeqgCMM0hmdoFQ" message="_lh9JUBteEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_lvtG4BtdEeqbJ8Ny2rixfQ" name="ActionExecutionSpecification6Finish" covered="_JP7lgBtbEeqbJ8Ny2rixfQ" execution="_lvrRsBtdEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_x_8l8BtcEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_x_6wwBtcEeqbJ8Ny2rixfQ" covered="_JP7lgBtbEeqbJ8Ny2rixfQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_x_9NABtcEeqbJ8Ny2rixfQ" covered="_JP7lgBtbEeqbJ8Ny2rixfQ"/>
+      <message xmi:type="uml:Message" xmi:id="_oXHOABtdEeqbJ8Ny2rixfQ" name="indicateur de CO2" receiveEvent="_oXJDMBtdEeqbJ8Ny2rixfQ" sendEvent="_oXIcIBtdEeqbJ8Ny2rixfQ"/>
+      <message xmi:type="uml:Message" xmi:id="_oYYZUBtdEeqbJ8Ny2rixfQ" name="null" messageSort="reply" receiveEvent="_oYaOgBtdEeqbJ8Ny2rixfQ" sendEvent="_oYZncBtdEeqbJ8Ny2rixfQ"/>
+      <message xmi:type="uml:Message" xmi:id="_lgqv4BteEeqbJ8Ny2rixfQ" name="Afficher CO2" receiveEvent="_lgslEBteEeqbJ8Ny2rixfQ" sendEvent="_lgr-ABteEeqbJ8Ny2rixfQ"/>
+      <message xmi:type="uml:Message" xmi:id="_lh9JUBteEeqbJ8Ny2rixfQ" name="null" messageSort="reply" receiveEvent="_lh--gBteEeqbJ8Ny2rixfQ" sendEvent="_lh-XcBteEeqbJ8Ny2rixfQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_as8L0BqTEeqgCMM0hmdoFQ" name="Capter"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_e8zegBqTEeqgCMM0hmdoFQ" name="Capter du CO2">
