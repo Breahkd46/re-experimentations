@@ -12,9 +12,13 @@
 
 ![Diagramme de cas d'utilisation](https://github.com/Breahkd46/re-experimentations/blob/master/exports/BDD_ALFRED.PNG)
 
-## Diagramme de IBD (Diagramme de block interne)
+## Diagramme de IBD Ecran (Diagramme de block interne)
 
 ![Diagramme de cas d'utilisation](https://github.com/Breahkd46/re-experimentations/blob/master/exports/IBD_Ecran.PNG)
+
+## Diagramme de IBD Maison Connectée (Diagramme de block interne)
+
+![Diagramme de cas d'utilisation](https://github.com/Breahkd46/re-experimentations/blob/master/exports/IDB_MAISON.PNG)
 
 ## Diagramme de séquence
 
