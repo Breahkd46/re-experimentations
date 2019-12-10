@@ -71,7 +71,7 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="__cSzABpvEeqlJv6l5GClOQ" name="maison connecté" type="_MOMNoBpvEeqrn5JwkVBLmg" association="__cQ90BpvEeqlJv6l5GClOQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_dDWRQBqNEeqgCMM0hmdoFQ" name="Bouton allumage Ecran">
+    <packagedElement xmi:type="uml:Class" xmi:id="_dDWRQBqNEeqgCMM0hmdoFQ" name="Maison_connecté">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_rdyXABqMEeqgCMM0hmdoFQ" name="Ecran affichage CO2">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_z-dXkBqMEeqgCMM0hmdoFQ" name="Capteur CO2">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_8s7jkBqMEeqgCMM0hmdoFQ" name="Calculer le niveau de CO2"/>
@@ -192,7 +192,7 @@
   <Requirements:Requirement xmi:id="_redFYBqMEeqgCMM0hmdoFQ" base_NamedElement="_rdyXABqMEeqgCMM0hmdoFQ" id="1" text="Permet d'afficher la valeur du CO2" base_Class="_rdyXABqMEeqgCMM0hmdoFQ"/>
   <Requirements:Requirement xmi:id="_z-sBEBqMEeqgCMM0hmdoFQ" base_NamedElement="_z-dXkBqMEeqgCMM0hmdoFQ" id="2" text="Doit retourner la valeur de CO2&#xD;&#xA;" base_Class="_z-dXkBqMEeqgCMM0hmdoFQ"/>
   <Requirements:Requirement xmi:id="_8tBqMBqMEeqgCMM0hmdoFQ" base_NamedElement="_8s7jkBqMEeqgCMM0hmdoFQ" id="3" text="Calcule le niveau de CO2 et indique si la valeur est bonne ou non pour l'utilisateur&#xD;&#xA;" base_Class="_8s7jkBqMEeqgCMM0hmdoFQ"/>
-  <Requirements:Requirement xmi:id="_dDfbMBqNEeqgCMM0hmdoFQ" base_NamedElement="_dDWRQBqNEeqgCMM0hmdoFQ" id="1" text="Doit allumer l 'ecran d affichage de CO2&#xD;&#xA;" base_Class="_dDWRQBqNEeqgCMM0hmdoFQ"/>
+  <Requirements:Requirement xmi:id="_dDfbMBqNEeqgCMM0hmdoFQ" base_NamedElement="_dDWRQBqNEeqgCMM0hmdoFQ" id="1" text="Doit fournir une alimentation electrique&#xD;&#xA;" base_Class="_dDWRQBqNEeqgCMM0hmdoFQ"/>
   <Blocks:Block xmi:id="_WDwFEBqREeqgCMM0hmdoFQ" base_Class="_WDsasBqREeqgCMM0hmdoFQ"/>
   <Blocks:Block xmi:id="_l6bp4BqREeqgCMM0hmdoFQ" base_Class="_l6U8MBqREeqgCMM0hmdoFQ"/>
   <Blocks:Block xmi:id="_9XpQUBqTEeqgCMM0hmdoFQ" base_Class="_9XmNABqTEeqgCMM0hmdoFQ"/>
